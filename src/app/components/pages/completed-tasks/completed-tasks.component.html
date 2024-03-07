@@ -1,0 +1,5 @@
+<app-page-title></app-page-title>
+
+<div>
+<app-task-list [taskList]="taskList" (complete)="onComplete($event)" (important)="onImportant($event)"></app-task-list>
+</div>

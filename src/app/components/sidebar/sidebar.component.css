@@ -1,0 +1,22 @@
+aside {
+    background-color: #ecf0f1;
+    padding: 15px;
+    width: 150px;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1); /* Added box shadow */
+}
+
+aside ul {
+    list-style-type: none;
+}
+
+aside li {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+aside li:hover {
+    background-color: #d2d2d2;
+}

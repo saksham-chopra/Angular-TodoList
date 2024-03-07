@@ -1,0 +1,13 @@
+header {
+    background-color: #3498db;
+    text-align: center;
+    padding: 15px;
+}
+
+header input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Added box shadow */
+}

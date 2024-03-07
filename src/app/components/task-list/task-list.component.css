@@ -1,0 +1,50 @@
+main {
+    background-color: rgb(207, 206, 206);
+    padding: 15px;
+  }
+  
+  div input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ecf0f1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  div h2 {
+    background-color: #ecf0f1;
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+  }
+  
+  div p {
+    background-color: #ecf0f1;
+    padding: 8px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    width: 85%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  div .icon-container {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+  }
+  
+  div p .icon-container:nth-child(1) {
+    right: 20px;
+    cursor: pointer;
+  }
+  div p .icon-container:nth-child(2){
+    right: 30px;
+    cursor: pointer;
+  }

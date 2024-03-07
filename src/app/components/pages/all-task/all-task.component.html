@@ -1,0 +1,8 @@
+<app-page-title ></app-page-title>
+
+<div>
+<input type="text" placeholder="type your task" [(ngModel)]="newTask" (keydown.enter)="addTask()">
+</div>
+<div>
+<app-task-list [taskList]="taskList" (complete)="onComplete($event)" (important)="onImportant($event)"></app-task-list>
+</div>
